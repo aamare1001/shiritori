@@ -10,7 +10,7 @@ import Typography from '@mui/material/Typography';
 const jisho = new JishoAPI();
 let eng = "NULL";
 
-jisho.searchForPhrase('kin曜日').then(result => {
+jisho.searchForPhrase('ka曜日').then(result => {
   // console.log('Jisho Uri: ' + result.uri);
   console.log(result);
 
